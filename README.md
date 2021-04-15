@@ -14,13 +14,13 @@ ethereum-multicall is fully written in typescript so has full compile time suppo
 ### npm:
 
 ```js
-$ npm install ethereum-multicall
+$ npm install ethereum-bsc-multicall
 ```
 
 ### yarn:
 
 ```js
-$ yarn add ethereum-multicall
+$ yarn add ethereum-bsc-multicall
 ```
 
 ## Usage
@@ -30,13 +30,13 @@ $ yarn add ethereum-multicall
 ### JavaScript (ES3)
 
 ```js
-var ethereumMulticall = require('ethereum-multicall');
+var ethereumMulticall = require('ethereum-bsc-multicall');
 ```
 
 ### JavaScript (ES5 or ES6)
 
 ```js
-const ethereumMulticall = require('ethereum-multicall');
+const ethereumMulticall = require('ethereum-bsc-multicall');
 ```
 
 ### JavaScript (ES6) / TypeScript
@@ -46,7 +46,7 @@ import {
   Multicall,
   ContractCallResults,
   ContractCallContext,
-} from 'ethereum-multicall';
+} from 'ethereum-bsc-multicall';
 ```
 
 ### ethers usage example
@@ -56,7 +56,7 @@ import {
   Multicall,
   ContractCallResults,
   ContractCallContext,
-} from 'ethereum-multicall';
+} from 'ethereum-bsc-multicall';
 import { ethers } from 'ethers';
 
 let provider = ethers.getDefaultProvider();
@@ -133,7 +133,7 @@ import {
   Multicall,
   ContractCallResults,
   ContractCallContext,
-} from 'ethereum-multicall';
+} from 'ethereum-bsc-multicall';
 import Web3 from 'web3';
 
 const web3 = new Web3('https://some.local-or-remote.node:8546');
@@ -205,7 +205,7 @@ import {
   Multicall,
   ContractCallResults,
   ContractCallContext,
-} from 'ethereum-multicall';
+} from 'ethereum-bsc-multicall';
 import { ethers } from 'ethers';
 
 let provider = ethers.getDefaultProvider();
@@ -298,7 +298,7 @@ import {
   Multicall,
   ContractCallResults,
   ContractCallContext,
-} from 'ethereum-multicall';
+} from 'ethereum-bsc-multicall';
 
 const multicall = new Multicall({ nodeUrl: 'https://some.local-or-remote.node:8546' });
 
